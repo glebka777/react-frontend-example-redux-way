@@ -1,10 +1,10 @@
 import React from 'react';
 
 import {Col, Container, Row, Table} from 'reactstrap';
-import VisiblePagination from "../../container/table/VisiblePagination";
-import VisibleDropDown from "../../container/table/VisibleDropDown";
-import VisibleBody from "../../container/table/VisibleBody";
-import VisibleHead from "../../container/table/VisibleHead";
+import VisiblePagination from "../../container/table/TablePaginationContainer";
+import VisibleDropDown from "../../container/table/RowsPerPageDropDownContainer";
+import VisibleBody from "../../container/table/TableBodyContainer";
+import VisibleHead from "../../container/table/TableHeadContainer";
 
 
 const SortingFilteringTableWithPagination = () => {

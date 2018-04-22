@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import DataInfo from "./DataInfo";
+import DataInfo from "./DataInfoPopup";
 
 
 const TableBody = props => {

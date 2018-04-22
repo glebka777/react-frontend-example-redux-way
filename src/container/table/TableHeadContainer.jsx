@@ -7,6 +7,6 @@ const mapStateToProps = state => {
   }
 };
 
-const VisibleHead = connect(mapStateToProps, null)(TableHead);
+const TableHeadContainer = connect(mapStateToProps, null)(TableHead);
 
-export default VisibleHead;
+export default TableHeadContainer;

@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import {Input, InputGroup, InputGroupButton} from 'reactstrap';
 
 
-class ColFilter extends Component {
+class ColumnFilter extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -40,10 +40,10 @@ class ColFilter extends Component {
   }
 }
 
-ColFilter.propTypes = {
+ColumnFilter.propTypes = {
   colId: PropTypes.string.isRequired,
   filter: PropTypes.func.isRequired,
   clear: PropTypes.func.isRequired
 };
 
-export default ColFilter;
+export default ColumnFilter;

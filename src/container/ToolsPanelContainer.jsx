@@ -16,9 +16,9 @@ const mapDispatchToProps = dispatch => {
   }
 };
 
-const VisiblePanel = connect(
+const ToolsPanelContainer = connect(
   mapStateToProps,
   mapDispatchToProps
 )(ToolsPanel);
 
-export default VisiblePanel;
+export default ToolsPanelContainer;

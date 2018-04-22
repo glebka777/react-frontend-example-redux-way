@@ -17,9 +17,9 @@ const mapDispatchToProps = dispatch => {
   }
 };
 
-const VisibleBody = connect(
+const TableBodyContainer = connect(
   mapStateToProps,
   mapDispatchToProps
 )(TableBody);
 
-export default VisibleBody;
+export default TableBodyContainer;

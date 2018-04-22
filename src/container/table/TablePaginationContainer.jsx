@@ -28,9 +28,9 @@ const getPageCount = (dataSize, pageSize) => {
   return Math.floor(pageCount);
 };
 
-const VisiblePagination = connect(
+const TablePaginationContainer = connect(
   mapStateToProps,
   mapDispatchToProps
 )(TablePagination);
 
-export default VisiblePagination;
+export default TablePaginationContainer;

@@ -5,7 +5,7 @@ import {Col, Container, Row} from "reactstrap";
 
 import Header from '../component/Header';
 import SortingFilteringTableWithPagination from "../component/table/Table";
-import VisiblePanel from "../container/VisiblePanel";
+import VisiblePanel from "../container/ToolsPanelContainer";
 
 class App extends Component {
   render() {

@@ -1,6 +1,6 @@
 import {changeSort} from "../../action/table";
 import {connect} from "react-redux";
-import ColSorter from "../../component/table/ColSorter";
+import ColSorter from "../../component/table/ColumnSorter";
 
 const mapDispatchToProps = (dispatch, ownProps) => {
   return {
@@ -14,9 +14,9 @@ const mapStateToProps = (state, ownProps) => {
   }
 };
 
-const VisibleSorter = connect(
+const ColumnSorterContainer = connect(
   mapStateToProps,
   mapDispatchToProps
 )(ColSorter);
 
-export default VisibleSorter;
+export default ColumnSorterContainer;

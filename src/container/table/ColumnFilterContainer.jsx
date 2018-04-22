@@ -1,6 +1,6 @@
 import {changeFilter} from "../../action/table";
 import {connect} from "react-redux";
-import ColFilter from "../../component/table/ColFilter";
+import ColFilter from "../../component/table/ColumnFilter";
 
 const mapDispatchToProps = (dispatch, ownProps) => {
   return {
@@ -9,9 +9,9 @@ const mapDispatchToProps = (dispatch, ownProps) => {
   }
 };
 
-const VisibleFilter = connect(
+const ColumnFilterContainer = connect(
   null,
   mapDispatchToProps
 )(ColFilter);
 
-export default VisibleFilter;
+export default ColumnFilterContainer;

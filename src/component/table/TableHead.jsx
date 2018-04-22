@@ -2,8 +2,8 @@ import React from "react";
 import PropTypes from 'prop-types';
 
 import {Col, Container, Row} from "reactstrap";
-import VisibleFilter from "../../container/table/VisibleFilter";
-import VisibleSorter from "../../container/table/VisibleSorter";
+import VisibleFilter from "../../container/table/ColumnFilterContainer";
+import VisibleSorter from "../../container/table/ColumnSorterContainer";
 
 
 const TableHead = props => {

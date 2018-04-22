@@ -15,7 +15,7 @@ import {
   Row
 } from 'reactstrap';
 
-const DataInfo = (props) => {
+const DataInfoPopup = (props) => {
   const data = props.data;
   return (
     <Modal isOpen={props.modal} toggle={props.close}>
@@ -77,10 +77,10 @@ const DataInfo = (props) => {
   );
 };
 
-DataInfo.propTypes = {
+DataInfoPopup.propTypes = {
   close: PropTypes.func.isRequired,
   modal: PropTypes.bool.isRequired,
   data: PropTypes.object.isRequired
 };
 
-export default DataInfo;
+export default DataInfoPopup;

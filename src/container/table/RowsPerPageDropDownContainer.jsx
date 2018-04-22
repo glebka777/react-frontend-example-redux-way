@@ -14,9 +14,9 @@ const mapStateToProps = state => {
   }
 };
 
-const VisibleDropDown = connect(
+const RowsPerPageDropDownContainer = connect(
   mapStateToProps,
   mapDispatchToProps
 )(RowsPerPageDropDown);
 
-export default VisibleDropDown;
+export default RowsPerPageDropDownContainer;

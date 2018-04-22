@@ -25,7 +25,7 @@ const getNewDir = dir => {
   return newDir;
 };
 
-const ColSorter = ({dir, changeDir}) => {
+const ColumnSorter = ({dir, changeDir}) => {
   let button;
   switch (dir) {
     case 'ASC': {
@@ -60,9 +60,9 @@ const ColSorter = ({dir, changeDir}) => {
   );
 };
 
-ColSorter.propTypes = {
+ColumnSorter.propTypes = {
   changeDir: PropTypes.func.isRequired,
   dir: PropTypes.string.isRequired
 };
 
-export default ColSorter;
+export default ColumnSorter;
